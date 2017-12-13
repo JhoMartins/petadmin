@@ -1,4 +1,4 @@
-class Client < ApplicationRecord
+class Supplier < ApplicationRecord
   include Fae::BaseModelConcern
 
   def fae_display_field

@@ -1,8 +1,8 @@
-class Client < ApplicationRecord
+class Campaign < ApplicationRecord
   include Fae::BaseModelConcern
 
   def fae_display_field
-    name
+    title
   end
 
 
